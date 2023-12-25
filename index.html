@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Ritesh Patel</title>
+</head>
+<body>
+
+   <nav data-aos="zoom-in" data-aos-duration="800">
+        <div class="logo">
+            <a href="#" target="_blank">Ritesh Patel</a>
+        </div>
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#experties">Expertise</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testinomials">Testinomials</a></li>
+        </ul>
+<!--         <button onclick="sendEmail()">
+            <a><span>Contact Me</span></a>
+        </button> -->
+        <button id="menuButton" onclick="openMenu()">
+          <img src="images/menu (1).png" alt="" class="toggle">
+        </button>
+    </nav>
+
+    <div class="home" id="home">
+        <div data-aos="zoom-in-up" data-aos-duration="800" class="left">
+            <h3>I am a <span>versatile professional</span> based in India.</h3>
+            <p>I specializing in the dynamic realms of web development and video editing. With a keen eye for detail and a passion for creativity, I bring forth a unique skill set that caters to the diverse needs of businesses and individuals.</p>
+            <button ><a href="mailto:contact@riteshpatel.in"><span>Get In Touch</span></a></button>
+        </div>
+        <div data-aos="zoom-in-up"
+        data-aos-duration="800" class="right">
+            <img src="images/4380747-removebg-preview.png">
+        </div>
+    </div> 
+
+   
+    <div class="about" id="about">
+        <!-- <div class="left" data-aos="zoom-in-up" data-aos-duration="800">
+            <img  src="images/profile.png">
+        </div> -->
+        <div class="right" data-aos="zoom-in-up" data-aos-duration="800">
+            <h3>About Me</h3>
+            <p>Hello there! I'm Ritesh Patel, a passionate Web UI/UX Designer and Editor on a mission to transform digital landscapes. With a keen eye for detail and a flair for creativity, I sculpt seamless and visually captivating user experiences. Whether it's crafting elegant interfaces, refining content with editorial finesse, or harmonizing both for a captivating blend, I thrive on bringing visions to life. Let's embark on a journey where innovation meets usability, and where your digital presence becomes an immersive story. Welcome to the intersection of design, functionality, and storytelling – welcome to my world.</p>
+        </div>
+    </div>
+
+    <div class="testinomials" id="experties" data-aos="zoom-in" data-aos-duration="800">
+        <h3>My Expertise</h3>
+        <div class="customers">
+            <div class="expertise">
+                <div class="image">
+                    <img class="web" src="images/global.png">
+                </div>
+                <h4>Web Development</h4>
+                <p>Skilled web developer fluent in HTML, CSS, and JavaScript, creating visually appealing and responsive websites. Proficient in backend development using Node.js, with a focus on user-friendly interfaces and staying abreast of the latest industry trends.</p>
+            </div>
+            <div class="expertise">
+                <div class="image">
+                    <img class="editing" src="images/trim.png">
+                </div>
+                <h4>Video Editing</h4>
+                <p>Experienced video editor adept at transforming raw footage into compelling narratives. Proficient in industry-standard editing software, dedicated to delivering high-quality, visually engaging content with creative flair, precision, and timely execution.</p>
+            </div>
+            <div class="expertise">
+                <div class="image">
+                    <img class="uiux" src="images/redesign.png">
+                </div>
+                <h4>Redesign Website</h4>
+                <p>Revamped website to reflect modern design trends, enhancing user experience and showcasing a dynamic portfolio with a fresh, captivating aesthetic. Elevate your online presence with a redesigned showcase that seamlessly blends creativity and functionality./p>
+            </div>
+        </div>
+    </div>
+    
+ 
+    <div class="portfolio" id="portfolio" data-aos="zoom-in" data-aos-duration="800">
+        <div class="header ">
+                <h3 >My Portfolio</h3>
+        </div>
+
+        <div class="portfo-items">
+            <div class="expertise" >
+                <img src="images/mq1.webp">
+                <div class="info">
+                    <a href="https://youtu.be/VzjH7L_B7d4"><b>Video Editing</b><i class='bx bx-link-external'></i></a>
+                    <p>This is a short clip of one our client.</p>
+                </div>
+            </div>
+            <div class="expertise" >
+                <img src="images/mq1 (1).webp">
+                <div class="info">
+                    <a href="https://youtu.be/f_8ANrZhGr8"><b>Video Editing</b><i class='bx bx-link-external'></i></a>
+                    <p>This is another clip of our client.</p>
+                </div>
+            </div>
+            <div class="expertise" >
+                <img src="images/Screenshot 2023-12-24 181432.png">
+                <div class="info">
+                    <a href="https://riteshpatel1884.github.io/portfolio_website/"><b>Website Development</b><i class='bx bx-link-external'></i></a>
+                    <p>A website development Project.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <div class="testinomials" id="testinomials" data-aos="zoom-in" data-aos-duration="800">
+        <h3 >Customers testinomials</h3>
+        <div class="customers" >
+            <div class="expertise">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>Ritesh crafts seamless and visually captivating website, showcasing an exceptional blend of design, functionality. The result is a digital masterpiece that offers an engaging and memorable user experience.</p>
+                <div class="user">
+                    <div class="info">
+                        <h5>Daniel</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="expertise">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>The website redesign exceeded my expectations! The modern design not only caught my eye but also enhanced the overall user experience. Navigating through the dynamic portfolio was a pleasure, showcasing a perfect blend of creativity and functionality</p>
+                <div class="user">
+                    <div class="info">
+                        <h5>Henyu</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="expertise">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>Ritesh Patel brings editorial finesse to the forefront, transforming content into a pleasure to read. The result is a seamlessly edited digital space that not only informs but captivates, setting a new standard for excellence in the art of digital storytelling.</p>
+                <div class="user">
+                    <div class="info">
+                        <h5>Kavya</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<!--     <div class="contact" id="contact" data-aos="zoom-in" data-aos-duration="800">
+        <h3>Contact us</h3>
+          <div class="box" >
+            <form>      
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+                <input type="submit" value="SUBMIT"/>
+              </form>
+          </div>
+    </div> -->
+  
+
+    <footer>
+        <div class="top" >
+            <div class="bottom" >
+                <div class="links">
+                    <a href="http://127.0.0.1:3000/privacypolicy.html">Privacy Policy</a>
+                    <a href="http://127.0.0.1:3000/terms.html">Terms of Service</a>
+                    <a href="mailto:contact@riteshpatel.in">Contact us</a>
+                </div>
+            </div>
+            <div class="social-links" >
+                <a href="https://youtube.com/@ritesh_1884?si=7BBBFUrkmxmC66Fc"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.instagram.com/riteshpatel_1884"><i class='bx bxl-instagram'></i></a>
+                <a href="mailto:contact@riteshpatel.in"><i class='bx bxl-gmail'></i></a>
+                <a href="https://www.linkedin.com/in/riteshpatel1884"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+             <p class="copyright">&copy; 2023 <a class="copyright1" href="https://www.riteshpatel.in">riteshpatel.in</a> All rights reserved.</p>
+        <div class="line"></div>
+
+    </footer> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+   
+</body>
+</html>
